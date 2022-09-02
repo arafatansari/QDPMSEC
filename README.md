@@ -32,7 +32,7 @@ Add username, email and password. USE THESE CREDENTIALS in the below exploit par
 
 ## Exploit
 ```
-$ python Exploit/exploit.py -url http://{target-ip}/qdpm/ -u test@localhost.com -p password
+$ python Exploit/exploit.py -url http://{target-ip}/ -u test@localhost.com -p test123
 ```
 
 ## Check (exploited)
