@@ -15,10 +15,10 @@ $ docker run -it -p 80:80 cve-assignment:ine
 ## Installation
 
 Checking Environment.
-![setup]
+![setup](https://github.com/arafatansari/QDPMSEC/blob/main/images/Installation%20Part%201.jpg?raw=true)
 
 Setting up SQL Server.
-![setup]
+![setup](https://github.com/arafatansari/QDPMSEC/blob/main/images/Installation%20Part%202.jpg?raw=true)
 
 Create Admin login/password.
 ![setup](https://github.com/arafatansari/QDPMSEC/blob/main/images/Installation%20Part%203.jpg?raw=true)
