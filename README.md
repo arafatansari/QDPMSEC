@@ -12,6 +12,19 @@ $ cd QDPMSEC
 $ docker build -t cve-assignment:ine .
 $ docker run -it -p 80:80 cve-assignment:ine
 ```
+## Installation
+```
+###Checking Environment.
+![setup] (https://github.com/arafatansari/QDPMSEC/blob/main/images/Installation%20Part%201.jpg)
+###Setting up SQL Server.
+![setup] (https://github.com/arafatansari/QDPMSEC/blob/main/images/Installation%20Part%201.jpg)
+###Create Admin login/password.
+![setup] (https://github.com/arafatansari/QDPMSEC/blob/main/images/Installation%20Part%201.jpg)
+###In order to exploit the webapp, you need to have atleast one more admin user. Create a new ADMIN user.
+![setup] (https://github.com/arafatansari/QDPMSEC/blob/main/images/CreateUser.jpg)
+###Add username, email and password. USE THESE CREDENTIALS in the below exploit parameters.
+![setup] (https://github.com/arafatansari/QDPMSEC/blob/main/images/CreateUser-2.jpg)
+```
 
 ## Exploit
 ```
