@@ -7,11 +7,10 @@ See Reference for the details.
 
 ## Run
 ```
-$ git clone https://github.com/arafatansari/SecAssignment.git
-$ cd SecAssignment
+$ git clone https://github.com/arafatansari/QDPMSEC.git
+$ cd QDPMSEC
 $ docker build -t cve-assignment:ine .
 $ docker run -it -p 80:80 cve-assignment:ine
-$ service apache2 start | service mysql start
 ```
 
 ## Exploit
