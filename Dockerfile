@@ -22,7 +22,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 COPY php.ini /etc/php5/apache2/php.ini
-COPY web app /var/www/html/
+COPY webapp /var/www/html/
 
 RUN chmod 777 /var/www/html/core/cache | chmod 777 /var/www/html/core/log | chown www-data:www-data -R /var/www/html/ && \
     rm /var/www/html/index.html
